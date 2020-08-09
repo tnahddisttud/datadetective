@@ -1,0 +1,58 @@
+body{
+    background-color: #222529;
+    font-family: 'Rubik', sans-serif;
+    color: #20B2AA;
+}
+.bg-dark {
+    background-color: #2D3136!important;
+}
+
+#searchbar {
+    background-color: #393E44;
+    border-radius: 5px;
+    border: #393E44;
+    color: #BBE1FA;
+    width: 100%;
+    /* box-shadow: 0px 10px 20px rgba(122, 150, 252, 0.07); */
+}
+
+.card {
+    background: #2D3136;
+    border: 1px solid rgba(46, 91, 255, 0.08);
+    box-sizing: border-box;
+    border-radius: 1px;
+    /* box-shadow: 0px 10px 20px rgba(122, 150, 252, 0.07); */
+}
+
+.card-title {
+    font-weight: 200;
+}
+
+.title-light{
+    font-weight: 200;
+}
+
+#forcast {
+    background-color: #393E44;
+}
+
+#calender {
+    background-color: #393E44;
+    border: 2px solid #20B2AA;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #20B2AA;
+}
+
+input {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    color: #20B2AA;
+  }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #20B2AA;
+    padding-right: 1rem;
+}
