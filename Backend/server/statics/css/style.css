@@ -56,3 +56,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: #20B2AA;
     padding-right: 1rem;
 }
+
+#chartBox {
+    position: absolute;
+    right: 1%;
+    bottom: 3%;
+    width: auto;
+    z-index: 1;
+}
